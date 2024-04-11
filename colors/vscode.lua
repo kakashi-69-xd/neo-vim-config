@@ -334,6 +334,10 @@ hl(0, "typescriptAsyncFuncKeyword", { fg="#569CD6", bg="NONE" });
 hl(0, "typescriptFuncKeyword", { fg="#569CD6", bg="NONE" });
 hl(0, "typescriptGlobalMethod", { fg="#DCDCAA", bg="NONE" });
 hl(0, "typescriptPromiseMethod", { fg="#DCDCAA", bg="NONE" });
+hl(0, "@type.builtin.typescript", { fg="#4EC9B0", bg="NONE" })
+hl(0, "@lsp.typemod.type.defaultLibrary.typescript", { fg="#4EC9B0", bg="NONE" })
+
+
 
 -- rust
 hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
