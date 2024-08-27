@@ -344,6 +344,7 @@ hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
 hl(0,"@include.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@keyword.coroutine.await", { fg="#C586C0", bg="NONE" });
 hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
+hl(0,"@lsp.type.selfKeyword.rust", { fg="#569CD6", bg="NONE" });
 
 hl(0, "xmlTag", { fg="#569CD6", bg="NONE" });
 hl(0, "xmlTagName", { fg="#569CD6", bg="NONE" });
