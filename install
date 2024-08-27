@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+SRC="$(dirname $0)";
+DEST="$HOME/.config/nvim";
+
+rm -rf $DEST
+git clone $SRC $DEST
+
