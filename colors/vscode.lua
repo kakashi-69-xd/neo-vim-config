@@ -126,7 +126,6 @@ hl(0, "@keyword.function", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.operator", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.exception", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.storage", { fg="#569CD6", bg="NONE" });
-hl(0, "@keyword.import", { fg="#C586C0", bg="NONE" });
 hl(0, "@operator", { fg="#D4D4D4", bg="NONE" });
 hl(0, "@type", { fg="#4EC9B0", bg="NONE" });
 hl(0, "@type.builtin", { fg="#569CD6", bg="NONE" });
