@@ -119,6 +119,7 @@ hl(0, "@property", { fg="#9CDCFE", bg="NONE" });
 hl(0, "@constructor", { fg="#4EC9B0", bg="NONE" });
 hl(0, "@label", { fg="#9CDCFE", bg="NONE" });
 hl(0, "@keyword", { fg="#569CD6", bg="NONE" });
+hl(0, "@keyword.import", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.conditional", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.repeat", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.function", { fg="#569CD6", bg="NONE" });
