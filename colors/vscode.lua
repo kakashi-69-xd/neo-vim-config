@@ -157,7 +157,7 @@ hl(0, "@diff.delta", { link="diffChange" });
 hl(0, "@lsp.typemod.type.defaultLibrary", { link="@type.builtin" });
 hl(0, "@lsp.type.type", { link="@type" });
 hl(0, "@lsp.type.typeParameter", { link="@type" });
-hl(0, "@lsp.type.macro", { link="@constant" });
+hl(0, "@lsp.type.macro", { link="@keyword" });
 hl(0, "@lsp.type.enumMember", { link="@constant" });
 hl(0, "@event", { link="Identifier" });
 hl(0, "@interface", { link="Identifier" });
@@ -341,7 +341,7 @@ hl(0, "@keyword.coroutine.typescript", { fg="#C586C0", bg="NONE" });
 
 -- rust
 hl(0,"@include.rust", { fg="#569CD6", bg="NONE" });
-hl(0,"@keyword.import", { fg="#569CD6", bg="NONE" });
+hl(0,"@keyword.import.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@keyword.coroutine.await", { fg="#C586C0", bg="NONE" });
 hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
 hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
