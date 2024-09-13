@@ -123,10 +123,12 @@ hl(0, "@keyword", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.import", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.conditional", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.repeat", { fg="#C586C0", bg="NONE" });
+hl(0, "@keyword.coroutine", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.function", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.operator", { fg="#569CD6", bg="NONE" });
 hl(0, "@keyword.exception", { fg="#C586C0", bg="NONE" });
 hl(0, "@keyword.storage", { fg="#569CD6", bg="NONE" });
+
 hl(0, "@operator", { fg="#D4D4D4", bg="NONE" });
 hl(0, "@type", { fg="#4EC9B0", bg="NONE" });
 hl(0, "@type.builtin", { fg="#569CD6", bg="NONE" });
@@ -155,6 +157,7 @@ hl(0, "@diff.plus", { link="DiffAdd" });
 hl(0, "@diff.minus", { link="DiffDelete" });
 hl(0, "@diff.delta", { link="diffChange" });
 
+hl(0, "@lsp.typemod.keyword.controlFlow", { fg="#C586C0", bg="NONE" });
 hl(0, "@lsp.typemod.type.defaultLibrary", { link="@type.builtin" });
 hl(0, "@lsp.type.type", { link="@type" });
 hl(0, "@lsp.type.typeParameter", { link="@type" });
@@ -343,7 +346,6 @@ hl(0, "@lsp.typemod.type.defaultLibrary.typescript", { fg="#4EC9B0", bg="NONE" }
 hl(0,"@include.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@keyword.import.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
-hl(0,"@keyword.coroutine.await", { fg="#C586C0", bg="NONE" });
 hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
 hl(0,"@lsp.type.selfKeyword.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.type.macro.rust", { fg="#569CD6", bg="NONE" });
