@@ -98,6 +98,7 @@ hl(0, "@constant.builtin", { fg="#4FC1FE", bg="NONE" });
 hl(0, "@constant.macro", { fg="#569CD6", bg="NONE" });
 hl(0, "@string.regexp", { fg="#CE9178", bg="NONE" });
 hl(0, "@string", { fg="#CE9178", bg="NONE" });
+hl(0, "@string.escape", { fg="#D7BA7D", bg="NONE" });
 hl(0, "@character", { fg="#CE9178", bg="NONE" });
 hl(0, "@number", { fg="#B5CEA8", bg="NONE" });
 hl(0, "@number.float", { fg="#B5CEA8", bg="NONE" });
@@ -148,7 +149,7 @@ hl(0, "@markup.link.url", { fg="#D4D4D4", bg="NONE", underline=true });
 hl(0, "@markup.list.checked", { link="Todo" });
 hl(0, "@markup.list.unchecked", { link="Todo" });
 hl(0, "@textReference", { fg="#CE9178" });
-hl(0, "@stringEscape", { fg="#CE9178", bold=true });
+hl(0, "@stringEscape", { fg="#D7BA7D", bold=true });
 
 hl(0, "@diff.plus", { link="DiffAdd" });
 hl(0, "@diff.minus", { link="DiffDelete" });
@@ -336,14 +337,13 @@ hl(0, "typescriptGlobalMethod", { fg="#DCDCAA", bg="NONE" });
 hl(0, "typescriptPromiseMethod", { fg="#DCDCAA", bg="NONE" });
 hl(0, "@type.builtin.typescript", { fg="#4EC9B0", bg="NONE" });
 hl(0, "@lsp.typemod.type.defaultLibrary.typescript", { fg="#4EC9B0", bg="NONE" });
-hl(0, "@keyword.coroutine.typescript", { fg="#C586C0", bg="NONE" });
 
 
 -- rust
 hl(0,"@include.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@keyword.import.rust", { fg="#569CD6", bg="NONE" });
-hl(0,"@keyword.coroutine.await", { fg="#C586C0", bg="NONE" });
 hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
+hl(0,"@keyword.coroutine.await", { fg="#C586C0", bg="NONE" });
 hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
 hl(0,"@lsp.type.selfKeyword.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.type.macro.rust", { fg="#569CD6", bg="NONE" });
