@@ -353,7 +353,12 @@ hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
 hl(0,"@lsp.type.selfKeyword.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.type.macro.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.type.formatSpecifier.rust", { fg="#569CD6", bg="NONE" });
+hl(0,"@lsp.typemod.derive.attribute.rust", { link="@function.macro.rust" });
 hl(0,"@lsp.typemod.variable.mutable.rust", { underline=true, link="@lsp.type.variable.rust" });
+hl(0,"@lsp.typemod.method.attribute.rust", { fg="#DCDCAA", bg="NONE" });
+hl(0,"@lsp.typemod.generic.attribute.rust", { fg="#D4D4D4", bg="NONE" });
+hl(0,"@lsp.typemod.deriveHelper.attribute.rust", { fg="#D4D4D4", bg="NONE" });
+
 
 hl(0, "xmlTag", { fg="#569CD6", bg="NONE" });
 hl(0, "xmlTagName", { fg="#569CD6", bg="NONE" });
