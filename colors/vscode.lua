@@ -158,7 +158,6 @@ hl(0, "@diff.plus", { link="DiffAdd" });
 hl(0, "@diff.minus", { link="DiffDelete" });
 hl(0, "@diff.delta", { link="diffChange" });
 
-hl(0, "@lsp.typemod.keyword.controlFlow", { fg="#C586C0", bg="NONE" });
 hl(0, "@lsp.typemod.type.defaultLibrary", { link="@type.builtin" });
 hl(0, "@lsp.type.type", { link="@type" });
 hl(0, "@lsp.type.typeParameter", { link="@type" });
@@ -169,6 +168,9 @@ hl(0, "@interface", { link="Identifier" });
 hl(0, "@modifier", { link="Identifier" });
 hl(0, "@regexp", { fg="#F44747", bg="NONE" });
 hl(0, "@decorator", { fg="#D4D4D4", bg="NONE"  });
+hl(0, "@lsp.typemod.keyword.controlFlow", { fg="#C586C0", bg="NONE" });
+hl(0, "@lsp.type.formatSpecifier", { fg="#9CDCFE", bg="NONE" });
+
 
 -- MD
 hl(0, "markdownBold", { fg="#569CD6", bold=true });
@@ -350,6 +352,7 @@ hl(0,"@function.macro.rust", { fg="#DCDCAA", bg="NONE" });
 hl(0,"@type.builtin.rust", { fg="#4EC9B0", bg="NONE" });
 hl(0,"@lsp.type.selfKeyword.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.type.macro.rust", { fg="#569CD6", bg="NONE" });
+hl(0,"@lsp.type.formatSpecifier.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@lsp.typemod.variable.mutable.rust", { underline=true, link="@lsp.type.variable.rust" });
 
 hl(0, "xmlTag", { fg="#569CD6", bg="NONE" });
