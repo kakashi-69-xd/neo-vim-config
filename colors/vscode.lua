@@ -1,5 +1,11 @@
 local hl=vim.api.nvim_set_hl;
 
+function blend(key)
+  local color=vim.api.nvim_get_hl_by_id(vim.api.nvim_get_hl_id_by_name(key),key).foreground;
+  return color;
+end
+
+
 hl(0, "Normal", { fg="#D4D4D4", bg="#1E1E1E" });
 hl(0, "ColorColumn", { fg="NONE", bg="#222222" });
 hl(0, "Cursor", { fg="#51504F", bg="#AEAFAD" });
@@ -533,7 +539,7 @@ hl(0, "DiagnosticUnderlineError", { fg="NONE", bg="NONE", undercurl=true, sp="#F
 hl(0, "DiagnosticUnderlineWarn", { fg="NONE", bg="NONE", undercurl=true, sp="#DCDCAA" });
 hl(0, "DiagnosticUnderlineInfo", { fg="NONE", bg="NONE", undercurl=true, sp="#569CD6" });
 hl(0, "DiagnosticUnderlineHint", { fg="NONE", bg="NONE", undercurl=true, sp="#569CD6" });
-hl(0, "DiagnosticUnnecessary", { bg="NONE", link="@lsp" });
+hl(0, "DiagnosticUnnecessary", { fg="fg" });
 hl(0, "LspReferenceText", { fg="NONE", bg="#343B41" });
 hl(0, "LspReferenceRead", { fg="NONE", bg="#343B41" });
 hl(0, "LspReferenceWrite", { fg="NONE", bg="#343B41" });
