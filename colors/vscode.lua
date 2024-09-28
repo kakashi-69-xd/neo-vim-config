@@ -351,6 +351,9 @@ hl(0, "@type.builtin.typescript", { fg="#4EC9B0", bg="NONE" });
 hl(0, "@lsp.typemod.type.defaultLibrary.typescript", { fg="#4EC9B0", bg="NONE" });
 
 
+-- c
+hl(0, "@keyword.directive.c", { fg="#C586C0", bg="NONE" });
+
 -- rust
 hl(0,"@include.rust", { fg="#569CD6", bg="NONE" });
 hl(0,"@keyword.import.rust", { fg="#569CD6", bg="NONE" });
