@@ -119,5 +119,5 @@ vim.cmd("colorscheme vscode");
 --- tabs
 vim.opt.tabstop=2;
 vim.opt.shiftwidth=2;
-vim.opt.enpandtab=true;
+vim.opt.expandtab=true;
 
