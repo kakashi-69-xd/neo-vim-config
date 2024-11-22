@@ -20,7 +20,9 @@ local plugins={
     "rust-lang/rust.vim",
     ft="rust",
     init=function ()
-      return
+      vim.opt.tabstop=2
+      vim.opt.shiftwidth=2
+      vim.opt.expandtab=true
     end
   },
   {
@@ -39,7 +41,7 @@ local plugins={
   },
   {
     "saecki/crates.nvim",
-    ft={"rust","toml"},
+    ft={"rust","toml","rs"},
     config=function (_,opts)
       local crates=require("crates");
       crates.setup(opts);
