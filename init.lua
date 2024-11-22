@@ -119,18 +119,11 @@ vim.cmd("colorscheme vscode");
 --- tabs
 
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = "python",
+  pattern = "rust",
   callback = function()
-    vim.bo.tabstop = 4
-    vim.bo.shiftwidth = 4
+    vim.bo.tabstop = 2
+    vim.bo.shiftwidth = 2
     vim.bo.expandtab = true
   end,
 })
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "make",
-  callback = function()
-    vim.bo.tabstop = 8
-    vim.bo.shiftwidth = 8
-    vim.bo.expandtab = false
-  end,
-})
+
