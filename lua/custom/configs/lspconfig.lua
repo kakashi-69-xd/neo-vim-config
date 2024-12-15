@@ -20,18 +20,8 @@ lspconfig.denols.setup({
 
 -- Zig Language Server
 lspconfig.zls.setup {
-  on_attach = function(client, bufnr)
-    local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-    local opts = { noremap = true, silent = true }
-    -- Key mappings
-    buf_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
-    buf_set_keymap("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
-    buf_set_keymap("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
-    buf_set_keymap("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opts)
-  end,
-  capabilities = require("cmp_nvim_lsp").default_capabilities(),
-  vim.filetype.add {
-    extension = { zig="zig" },
-  }
+  on_attach=on_attach,
+  capabilities=require("cmp_nvim_lsp").default_capabilities(),
+  filetypes={"zig"},
 }
 
